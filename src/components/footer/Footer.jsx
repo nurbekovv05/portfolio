@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './footer.css'
 const Footer = () => {
     return (
         <>
@@ -13,7 +13,7 @@ const Footer = () => {
                             <a href="#about" className="footer__link">About</a>
                         </li>
                         <li>
-                            <a href="#portfolio" className="footer__link"></a>
+                            <a href="#portfolio" className="footer__link">Project</a>
                         </li>
                         <li>
                             <a href="#home" className="footer__link">Home</a>
@@ -31,8 +31,10 @@ const Footer = () => {
                         <a href="https://twitter.com/Nurbol_dew" className="home__social-icon" target="_blank">
                             <i className="uil uil-twitter"></i>
                         </a>
-
                     </div>
+                    <span className='footer__copy'>
+                        &#169; Crypticalcoder. All rights reserved
+                    </span>
                 </div>
             </footer>
         </>
