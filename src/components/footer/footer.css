@@ -1,10 +1,10 @@
 .footer {
-    background-color: var(--container-color);
+    background-color: var(---footer-color);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .footer__container {
-    padding: 2rem 0 6rem;
+    padding: 2rem 0 2rem;
 }
 
 .footer__title, .footer-link {
@@ -30,7 +30,7 @@
 .footer__social {
     display: flex;
     justify-content: center;
-    column-gap: 1.125rem;
+    column-gap: 1.25rem;
 }
 
 .footer__social-link {
@@ -48,7 +48,7 @@
 
 .footer__copy{
     display: block;
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
     color: var(--title-color);
     text-align: center;
     font-size: var(--smaller-font-size);
